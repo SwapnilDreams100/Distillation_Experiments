@@ -8,10 +8,10 @@ from keras import backend as K
 from keras.datasets import cifar10, cifar100
 from keras.utils import plot_model
 from keras.preprocessing.image import ImageDataGenerator
-from keras.engine.topology import Input, Container
+from keras.engine.network import Network
 from keras.engine.training import Model
 from keras.models import Sequential
-from keras.layers import Dense, Dropout, Activation, Flatten, advanced_activations, BatchNormalization
+from keras.layers import Input, Dense, Dropout, Activation, Flatten, advanced_activations, BatchNormalization
 from keras.layers import Conv2D, MaxPooling2D, Convolution2D, pooling
 from keras.callbacks import ModelCheckpoint
 import os

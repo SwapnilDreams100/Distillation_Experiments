@@ -13,10 +13,10 @@ from keras.metrics import categorical_accuracy, top_k_categorical_accuracy
 from keras.datasets import cifar10, cifar100
 from keras.preprocessing.image import ImageDataGenerator
 from keras.preprocessing.image import Iterator
-from keras.engine.topology import Input, Container
+from keras.engine.network import Network
 from keras.engine.training import Model
 from keras.models import Sequential
-from keras.layers import Dense, Dropout, Activation, Flatten, advanced_activations, BatchNormalization
+from keras.layers import Input, Dense, Dropout, Activation, Flatten, advanced_activations, BatchNormalization
 from keras.layers import Conv2D, MaxPooling2D, Convolution2D, pooling, Lambda, concatenate
 from keras.callbacks import ModelCheckpoint, ReduceLROnPlateau
 from keras.models import load_model as keras_load_model
