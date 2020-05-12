@@ -18,7 +18,7 @@ import os
 
 batch_size = 128
 num_classes = 100
-epochs = 300
+epochs = 100
 
 os.makedirs('./teacher_models/', exist_ok=True)
 

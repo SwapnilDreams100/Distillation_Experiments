@@ -29,7 +29,7 @@ from tensorflow.python.client import device_lib
 
 batch_size = 128
 num_classes = 100
-epochs = 300
+epochs = 100
 
 # The data, split between train and test sets:
 (x_train, y_train), (x_test, y_test) = cifar100.load_data()
